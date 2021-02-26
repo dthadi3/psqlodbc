@@ -5,3 +5,5 @@ language: c
 script:
   - ./configure
   - make
+before_script:
+  - sudo apt install unixODBC
