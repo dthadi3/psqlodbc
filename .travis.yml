@@ -1,0 +1,7 @@
+arch:
+  - amd64
+  - ppc64le
+language: c
+script:
+  - ./configure
+  - make
